@@ -176,9 +176,9 @@ public class GraphPathFinder {
 
         List<Path> paths = gp.kShortestPaths(src, dst, 2);
         if (paths.isEmpty()) {
-            System.out.println("Nenhum caminho encontrado de " + src + " até " + dst + ".");
+            System.out.println("Nenhum caminho encontrado de " + src + " ate " + dst + ".");
         } else {
-            System.out.println("Caminhos encontrados (até 2, ordenados por distância):");
+            System.out.println("Caminhos encontrados (ate 2, ordenados por distancia):");
             for (int i = 0; i < paths.size(); i++) {
                 System.out.printf("%d: %s\n", i + 1, paths.get(i));
             }
